@@ -1,8 +1,12 @@
 # vgg16-tabulardata
 - Thông tin các file:
 + vgg16: file tuning cho mô hình vgg16 cho dữ liệu dạng bảng (tabular data)
+  * tuning với keras tuner, local loss, dữ liệu gốc
+  * tuning với keras tuner, local loss, dữ liệu đã được SMOTE
 + vgg16_default: mô hình vgg16 chưa được tuning
 + mlpKeras_default: mô hình mlp keras chưa tuning
+  * tuning với keras tuner, local loss, dữ liệu gốc
+  * tuning với keras tuner, local loss, dữ liệu đã được SMOTE
 + improve_mlp: tuning cho mô hình mlp
 - Mô hình vgg16 tuning các tham số sau:
 + Cấu trúc CNN (số lượng và kích thước các lớp):
