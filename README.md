@@ -30,6 +30,7 @@
 + Cấu trúc mạng (Network architecture)
   * num_layers: số lượng hidden layers, từ 1 đến 5
   * Với mỗi layer i từ 0 đến num_layers-1:
+  
   units_i: số neuron trong layer, từ 32 đến 512 (bước 32)
 
   activation_i: hàm kích hoạt, chọn một trong { 'relu', 'tanh', 'elu' }
